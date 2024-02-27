@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Displays Best School 10 times this time using until construct
 
-i = 0
+i=0
 
 until false; do
 echo "Best School"
-(( i++ ))
+((i++))
 if [[ $i -lt 10 ]]; then
 continue
 else
